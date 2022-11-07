@@ -1,0 +1,88 @@
+.content
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+    margin: 0 auto
+
+    .main-content
+        background-color: #5a31cc
+        padding: 3rem
+        border-radius: 10px
+        display: flex
+        flex-direction: column
+        gap: 3rem
+        align-items: center
+
+        .title
+            font-weight: 700
+            letter-spacing: 0.05em
+            font-size: 20px
+
+        .result
+            display: flex
+            flex-direction: column
+            gap: 0.5rem
+
+            img
+                max-width: 30vh
+                border-radius: 10px
+
+            .userFound
+                opacity: 0
+
+            .noUserFound
+                opacity: 1
+
+        .divOpacity0
+            opacity: 0
+        
+        .divOpacity1
+            opacity: 1
+
+        .info-name
+            display: flex
+            flex-direction: column
+            gap: 0.3rem
+
+            span
+                font-size: 12px
+
+            input
+                padding: 0.5rem 1rem
+                width: 50vh
+                border-radius: 10px
+                border: 1px solid #fff
+                color: #fff
+                background-color: #3f23bb
+                transition: 1s
+                cursor: text
+
+            input:hover
+                scale: (1.1)
+
+        .action-buttons
+            display: flex
+            gap: 1rem
+
+            button
+                padding: 0.5rem 1rem
+                border-radius: 10px
+                cursor: pointer
+                transition: 1s
+                
+            .search
+                border: none
+                color: #3f23bb
+                font-weight: 700
+
+            .clean
+                border: 1px solid #fff
+                background-color: #3f23bb
+                font-weight: 700
+
+            :hover
+                scale: (1.1)
+
+
+                
